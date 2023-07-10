@@ -6,7 +6,12 @@
         <div class="hello-block">
           <div class="hello-block__text">
             <ui-title type="title">
-              Меня зовут Аня 🤗
+              Меня зовут Аня 
+              <ui-icon
+                name="hand-sparkles"
+                color="var(--pink)"
+                style="margin-left: 4px"
+              />
             </ui-title>
             <ui-title class="hello-block__subtitle">
               Я <span class="pink">художник</span> и <br>
@@ -53,7 +58,7 @@
     }
 
     &__subtitle {
-      margin-top: 32px;
+      margin-top: 24px;
 
       @include phones {
         margin-top: 16px;

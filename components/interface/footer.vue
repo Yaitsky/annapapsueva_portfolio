@@ -1,11 +1,15 @@
 <template>
   <footer class="interface-footer">
     <ui-text type="small" class="interface-footer__created-by">
-      Сделано с любовью 💗
+      Сделано с любовью
+      <ui-icon
+        name="heart-pulse"
+        color="var(--pink)"
+        size="lg"
+        style="margin-left: 4px"
+      />
     </ui-text>
-    <ui-text type="small" color="caption">
-      2023
-    </ui-text>
+    <ui-text type="small" color="caption"> 2023 </ui-text>
   </footer>
 </template>
 
@@ -18,6 +22,7 @@
   align-items: center;
   width: 100%;
   margin-top: 64px;
+  gap: 4px;
 
   @include phones {
     padding: 24px 0;

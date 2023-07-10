@@ -1,6 +1,6 @@
 import { library, config } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { faPaintBrush, faFan, faEyeDropper, faChild } from '@fortawesome/free-solid-svg-icons'
+import { faPaintBrush, faFan, faEyeDropper, faChild, faHandSparkles,faHeartPulse } from '@fortawesome/free-solid-svg-icons'
 import { faInstagram, faTelegramPlane, faBehance } from '@fortawesome/free-brands-svg-icons'
 
 library.add(
@@ -8,6 +8,8 @@ library.add(
   faFan,
   faEyeDropper,
   faChild,
+  faHandSparkles,
+  faHeartPulse,
   faInstagram,
   faTelegramPlane,
   faBehance

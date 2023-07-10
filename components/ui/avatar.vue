@@ -4,10 +4,10 @@
 
 <style lang="scss">
 .ui-avatar {
-  width: 480px;
+  width: 560px;
 
   @include tablets {
-    width: 360px;
+    width: 400px;
   }
 
   @include phones {
