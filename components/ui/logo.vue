@@ -2,8 +2,16 @@
   <img class="ui-logo" src="~/assets/logo/ap_logo.png" alt="Anna Papsueva Logo" />
 </template>
 
-<style>
+<style lang="scss">
 .ui-logo {
-  height: 64px;
+  height: 96px;
+
+  @include tablets {
+    height: 80px;
+  }
+
+  @include phones {
+    height: 64px;
+  }
 }
 </style>
